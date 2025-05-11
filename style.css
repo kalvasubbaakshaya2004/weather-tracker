@@ -1,0 +1,47 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(135deg, #67B26F, #4ca2cd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.weather-app {
+  background: LightGray;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #4ca2cd;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #67B26F;
+}
+
+#weather-result img {
+  width: 80px;
+  height: 80px;
+}
+
+.hidden {
+  display: none;
+}
