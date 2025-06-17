@@ -1,7 +1,7 @@
 document.getElementById("weather-form").addEventListener("submit", async function (e) {
   e.preventDefault();
   const city = document.getElementById("city-input").value;
-  const apiKey = "bd63bb0a889e064f3a6c320bd788d261"; // <-- Replace this
+  const apiKey = "bd63bb0a889e064f3a6c320bd788d261"; 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
   const res = await fetch(url);
